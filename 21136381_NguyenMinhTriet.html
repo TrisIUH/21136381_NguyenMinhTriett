@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+        }
+        .wrapper{
+            height: 800px;
+            width: 1089px;
+            background-color: antiquewhite;
+            border: 1px solid #384c73;
+        }
+        header{
+            background-color: rgba(41,78,121,255);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        header .left{
+            display: flex;
+            color: white;
+            align-items: center;
+
+        }
+        header .right nav ul{
+            display: flex;
+            color: white;
+            align-items: center;
+            list-style: none;
+        }
+
+        header .right nav li{
+            padding: 10px 20px ;
+            background-color: #5371a7;
+            margin-right: 10px;
+        }
+        header .right nav a{
+            text-decoration: none;
+            color: white;   
+        }
+        header .right .search {
+           text-align: right;
+           margin-bottom: 20px;  
+        }
+        header .right .search input,
+        header .right .search button {
+           text-align: right;
+           margin-bottom: 20px;  
+           background-color: #26334d;
+        }
+        .content{
+            background-color: white;
+            display: grid;
+            gap: 15px;
+            grid-template-columns: 65% auto;
+            padding: 30px 10px;
+            
+        }
+        
+        .content .form-infor {
+            display: grid;
+            grid-template-columns: 60% auto;
+            gap: 15px;
+        }
+        table{
+            margin: 0 ;
+        }
+        .content h3{
+            border-bottom: 1px dotted black ;
+            padding-bottom:  10px;
+        }
+        .content .right {
+            background-color: #eee;
+            padding: 10px;
+            
+        }
+        .content .right a {
+            
+            text-decoration: none;
+            color: #483D8B ;
+            margin-left: 230px;
+            
+        }
+        footer{
+            color: white;
+            background-color: #483D8B ;
+            padding: 10px;
+        }
+        footer span{
+            color: violet ;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="left">
+                <img src="../LTW/21136381_NguyenMinhTriet/demo/21136381_NguyenMinhTriet/Logo.png" alt="">
+                <div class="company-name">
+                    <h2>FlowerBox 360</h2>
+                    <p>...to get your daily dose of luxury roses!</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="text" placeholder="Search the site...">
+                    <button>Go</button>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Promotion</a></li>
+                        <li><a href="">Gift Baskets</a></li>
+                        <li><a href="">Flower Services</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content">
+            <div class="left">
+                <h3>Why Not Contact Us Today!</h3>
+                <div class="form-infor">
+                    <div class="form">
+                        <p style="text-shadow: 7px 7px 5px green; color: orangered; font-style: italic;">For FlowerBox 360 shoppers, that means not only can you send your friends and loved ones the highest quality flowers found on online, but that you can do so at a great value.</p>
+                        <form action="">
+                            <table >
+                                <tr>
+                                    <td>Name: <br>
+                                    <input type="text"></td>
+                                
+                                    <td>Email: <br>
+                                    <input type="email"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Telephone: <br> <input type="tel"></td>
+                                    <td>Subject: <br> <input type="text"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Message: <br>
+                                    <textarea name="" id="" cols="30" rows="10"></textarea></td>
+                                </tr>
+                                <tr> 
+                                    <td>
+                                        <button>Submit</button>
+                                        <button>Reset</button>
+                                    </td>
+                                    
+                                </tr>
+                                
+                                
+                            </table>
+                        </form>
+
+                    </div>
+                    <div class="infor">
+                        <h3>FlowerBox 360 Info!</h3>
+                        <p>Operating Hours: <br>
+                        Monday-Friday: 9:00an-5:00pm <br>
+                        Saturday: 9:00am-1.00pm <br>
+                        Sunday: Closed (No Deliveries)
+                        <br>
+                        ORDER ONLINE 24/7</p>
+
+                        <p>
+                            Software Engineering Dept.
+                            <br>
+                            Information Teachnology Falcuty
+                            <br>
+                            First Floor, H Building
+                        </p>
+
+                        <p>
+                            12 Nguyen Van Bao St., Ward 4 <br>
+                            Go Vap District <br>
+                            Ho Chi Minh City <br>
+                            Tel: 02838940390 <br>
+                            Fax: 02839940954
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h3>Discount & Specials</h3>
+                <img src="../hoahong.png" alt="">
+                <p>
+                    FlowerBox 360 offers many great discount throughout the year, form coupins and coupin codes, to promo codes and other ssaving. We also offer military flower discounts to our wonderful troop!
+                </p>
+                <a href="">Read More >> </a>
+            </div>
+        </div>
+        <footer>
+            Copyright @Copy 2017 - All Rights Reserved - <span>Software Engineering Department - Industrial University of Ho Chi Minh City</span>
+        </footer>
+    </div>
+</body>
+</html>
